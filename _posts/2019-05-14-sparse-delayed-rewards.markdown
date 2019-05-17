@@ -12,18 +12,26 @@ This is an abstract on the items....
 
 # Intro
 One of the outstanding research questions within RL is how to learn from reward signals that may be **sparse**, **delayed**, or both.
-- Define sparse delayed rewards functionally
+
+- The research community is confusing sparse and delayed rewards
+- Define sparse rewards functionally
+- Define delayed rewards functionally
 
 - Many real-world problems contain [reward functions]() that .
 - The goal is to extract as much predictive power as possible from the reward signal.
 
 - An example... using extremes to get the point across.
+- Visual
 
+# Background
 - Define sparse rewards equations
 - Define delayed Rewards equations
 - visual example
 
 - example of simulations where x axis is length of delay and y is the median learning across several episodes
+
+- Extract what is really happening...
+- So what is happening here?  Boostrapping using one step bellman update is mudding the credit assignment
 
 # Branches
 
@@ -57,3 +65,4 @@ One of the outstanding research questions within RL is how to learn from reward 
 1. Diversity/complexity
 2. Stochastic
 3. Credit assignment
+4. Experiments (DOE) to extract what really is happening
